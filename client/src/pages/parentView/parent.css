@@ -1,0 +1,18 @@
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+.no-scrollbar {
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Optional: Hide scrollbar for Edge and IE */
+.no-scrollbar::-ms-scrollbar {
+  display: none;
+}
+
+/* Optional: Smooth scrolling behavior */
+.no-scrollbar {
+  scroll-behavior: smooth;
+}
